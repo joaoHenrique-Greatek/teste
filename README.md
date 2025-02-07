@@ -156,7 +156,7 @@ git status
 | Versão |   Data   |        Descrição        |       Autor      |
 |--------|----------|-------------------------|------------------|
 |  1.0   |06/02/2025|Documentação basica em MD|Isaac Souza       |
-
+|  2.0   |07/02/2025|Comandos Básicos do Git  |João Henrique     | 
 ---
 
 
