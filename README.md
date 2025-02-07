@@ -120,13 +120,13 @@ Esse comando serve para fazer um comentário sobre as alterações feitas. A cad
     git push -u origin main
 ```
 
-O comando git push envia as alterações locais de um repositório para um repositório remoto. Ele sincroniza os commits locais com o repositório remoto, permitindo que outros desenvolvedores acessem essas mudanças.
+O comando git push envia as alterações locais de um repositório para um repositório remoto. Ele sincroniza os commits locais com o repositório remoto, permitindo que outros desenvolvedores acessem essas mudanças..
 
--u: A opção -u (ou --set-upstream) faz com que o Git associe o branch local com o branch remoto especificado. Isso significa que, após esse primeiro push, você pode usar comandos como git push ou git pull sem precisar especificar o nome do branch e o repositório remoto em comandos subsequentes. Ou seja, ele configura o branch local para rastrear o branch remoto correspondente, tornando mais fácil trabalhar com esse branch no futuro.
-<br>
+-u: A opção -u (ou --set-upstream) faz com que o Git associe o branch local com o branch remoto especificado. Isso significa que, após esse primeiro push, você pode usar comandos como git push ou git pull sem precisar especificar o nome do branch e o repositório remoto em comandos subsequentes. Ou seja, ele configura o branch local para rastrear o branch remoto correspondente, tornando mais fácil trabalhar com esse branch no futuro..
+
 origin: origin é o nome padrão dado ao repositório remoto. Geralmente, é o repositório de onde você clonou o projeto ou o repositório principal onde seu código é armazenado. Pode ser configurado com outros nomes, mas origin é o nome mais comum.
-<br>
-main: main é o nome do branch que você está empurrando para o repositório remoto. Tradicionalmente, o branch principal de um repositório Git era chamado de master, mas muitos projetos agora utilizam main como nome padrão para o branch principal.
+
+main: main é o nome do branch que você está empurrando para o repositório remoto. Tradicionalmente, o branch principal de um repositório Git era chamado de master, mas muitos projetos agora utilizam main como nome padrão para o branch principal..
 
 
 ## Histórico da Documentação
