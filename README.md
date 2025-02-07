@@ -120,22 +120,22 @@ Esse comando serve para fazer um comentário sobre as alterações feitas. A cad
     git push -u origin main
 ```
 
-O comando git push envia as alterações locais de um repositório para um repositório remoto. Ele sincroniza os commits locais com o repositório remoto, permitindo que outros desenvolvedores acessem essas mudanças..
+O comando git push envia as alterações locais de um repositório para um repositório remoto. Ele sincroniza os commits locais com o repositório remoto, permitindo que outros desenvolvedores acessem essas mudanças
 
-**-u**: A opção **-u** (ou **--set-upstream**) faz com que o Git associe o branch local com o branch remoto especificado. Isso significa que, após esse primeiro push, você pode usar comandos como git push ou git pull sem precisar especificar o nome do branch e o repositório remoto em comandos subsequentes. Ou seja, ele configura o branch local para rastrear o branch remoto correspondente, tornando mais fácil trabalhar com esse branch no futuro..
+**-u**: A opção **-u** (ou **--set-upstream**) faz com que o Git associe o branch local com o branch remoto especificado. Isso significa que, após esse primeiro push, você pode usar comandos como git push ou git pull sem precisar especificar o nome do branch e o repositório remoto em comandos subsequentes. Ou seja, ele configura o branch local para rastrear o branch remoto correspondente, tornando mais fácil trabalhar com esse branch no futuro
 
-**origin:** origin é o nome padrão dado ao repositório remoto. Geralmente, é o repositório de onde você clonou o projeto ou o repositório principal onde seu código é armazenado. Pode ser configurado com outros nomes, mas origin é o nome mais comum..
+**origin:** origin é o nome padrão dado ao repositório remoto. Geralmente, é o repositório de onde você clonou o projeto ou o repositório principal onde seu código é armazenado. Pode ser configurado com outros nomes, mas origin é o nome mais comum
 
-**main:** main é o nome do branch que você está empurrando para o repositório remoto. Tradicionalmente, o branch principal de um repositório Git era chamado de master, mas muitos projetos agora utilizam main como nome padrão para o branch principal..
+**main:** main é o nome do branch que você está empurrando para o repositório remoto. Tradicionalmente, o branch principal de um repositório Git era chamado de master, mas muitos projetos agora utilizam main como nome padrão para o branch principal
 
-Para criar uma nova branch em Git, é utilizado: ..
+Para criar uma nova branch em Git, é utilizado: 
 
 ```bash
 git checkout -b minha-nova-branch
 
 ```
 
-onde git checkout **-b** checa se a branch já existe, se ela não existir ela cria e já altera para nova branch troque **“minha-nova-branch”** para o nome da branch desejada.
+onde git checkout **-b** checa se a branch já existe, se ela não existir ela cria e já altera para nova branch troque **“minha-nova-branch”** para o nome da branch desejada
 
 Para navegar entre branches use
 
